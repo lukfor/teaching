@@ -73,7 +73,7 @@ public class MySQLDemo {
 		try {
 			conn = DriverManager.getConnection(
 					"jdbc:mysql://127.0.0.1:3306/FlughafenDB", "kuf",
-					"lukas");
+					"kufonmysql");
 		} catch (SQLException e) {
 			System.out.println("SQLException: " + e.getMessage());
 			System.out.println("SQLState: " + e.getSQLState());
