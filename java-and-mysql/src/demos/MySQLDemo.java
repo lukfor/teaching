@@ -72,7 +72,7 @@ public class MySQLDemo {
 	public void setUpConnection() {
 		try {
 			conn = DriverManager.getConnection(
-					"jdbc:mysql://127.0.0.1:3306/FlughafenDB", "lukas",
+					"jdbc:mysql://127.0.0.1:3306/FlughafenDB", "kuf",
 					"lukas");
 		} catch (SQLException e) {
 			System.out.println("SQLException: " + e.getMessage());
